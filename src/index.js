@@ -21,7 +21,7 @@ const sorted = resNum.sort((a, b) => a-b);
 return sorted[0]; 
 }
 
-function getNum(x, arr = [], num = 2) { //get simple multiplier
+function getNum(x, arr = [], num = 2) { 
 if (x === '1') {
 arr.push(1);
 }
@@ -40,7 +40,7 @@ arr = getNum(x, arr, num);
 return arr;
 }
 
-function maxPowerOf(p, n) { // степень k простого числа p, на которую делится n!
+function maxPowerOf(p, n) {
 let k = 0;
 let powerOfP = 1;
 while (true)
